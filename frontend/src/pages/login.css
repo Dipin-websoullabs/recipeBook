@@ -1,0 +1,134 @@
+.LoginMain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   margin-top: 10%;
+  
+   
+    
+}
+.loginLeft{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+   
+}
+.loginImage{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    
+}
+.loginimg{
+    width: 100%;
+}
+.loginRight{
+    display: flex;
+    
+    justify-content: center;
+    width: 50%;
+    
+    
+   
+}
+.loginForm{
+    width: 90%;
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  
+    
+}
+.loginForm1{
+    width: 70%;
+}
+.inputMainLogin{
+    
+    width: 100%;
+    padding:10px ;
+    
+    border: 1px solid #121540;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+   margin-top: 30px;
+    font-size: 14px;
+    height: 37px;
+}
+.inputMainButton{
+    
+    width: 100%;
+    padding:10px ;
+    color: #FFFFFF;
+    border: 1px solid #121540;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+   margin-top: 30px;
+    font-size: 14px;
+    height: 37px;
+    background-color: #1976D2;
+}
+
+.loginLink{
+    margin-left: -45%;
+    text-decoration-line: none;
+}
+.loginSignup{
+    text-align: left;
+}
+#loginTypo{
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+#loginSignup{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+@media (max-width:768px) {
+.LoginMain{
+    
+   margin-top: 25%;
+   
+    
+}
+.inputMainLogin{
+    
+   
+   margin-top: 20px;
+  
+}
+
+}
+
+@media (max-width:500px) {
+    .LoginMain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+        
+    }
+    .loginLeft{
+      
+        width: 100%;
+   
+    }
+    .loginRight{
+      
+        width: 100%;
+   
+    }
+    .loginLink{
+        margin-left: -52%;
+        text-decoration-line: none;
+    }
+    
+}

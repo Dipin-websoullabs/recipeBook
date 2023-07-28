@@ -1,0 +1,78 @@
+.ProfilePage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+}
+#ProfileTypo1{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.ProfilePage1{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 50px;
+    text-align: left;
+}
+.HomeSearchBoxP{
+    width: 20%;
+  margin-top: 50px;
+
+  margin-left: 10%;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  #phoneNumber,#address,#favoriteFoods {
+    flex: 2;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  .formButton {
+    margin-top: 10px;
+    width: 30%;
+    padding: 2px 5px; 
+    margin: auto;
+   
+  }
+  .YourRecipe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+  }
+  #yourFav{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  @media (max-width:320px) {
+    .formButton {
+      
+      width: 60px;
+      margin: auto;
+     
+     
+    }
+    
+  }
