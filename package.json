@@ -12,6 +12,7 @@
   "author": "Dipin",
   "license": "ISC",
   "dependencies": {
+    "@vercel/blob": "^0.10.0",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "crypto": "^1.0.1",
@@ -26,6 +27,4 @@
     "nodemon": "^2.0.22"
   },
   "proxy": "http://127.0.0.1:3002"
-
-
 }
